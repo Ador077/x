@@ -153,49 +153,7 @@ logo=("""\033[92;1m
 \033[1;32m║════════════════════════════════════════║
 \033[1;32m║              \033[1;32mAlvi MENU [👑]            ║
 \033[1;91m╚════════════════════════════════════════╝""")
-def approval():
-    try:
-        os.system('clear')
-        print(logo1)
-        x = requests.get('https://raw.githubusercontent.com/hop09/libraries/main/version.txt').text
-        if str("upppdate") in update:
-            os.system('clear')
-            exit('script is in update / maintanance be patient ')
-        elif str("res-sseett") in update:
-            os.system('')
-            os.system('')
-            os.system('')
-            exit('DONT TRY TO BYPASS')
-        elif bumper in myweb2:
-            print("YOUR KEY WAS APPROVED")
-            FIRE()
-        else:
-            os.system("clear");print(logo)
-            print(f"{RED}YOUR DEVICE LICENSE KEY IS NOT APPROVED")
-            print(55*"\033[1;92m=")
-            print(f"\033[1;92m\033[1;91m[\033[1;92m•\033[1;91m]KEY : {RED}{bumper}")
-            print(55*"\033[1;92m=")
-            print(f"{GREEN}[07]☞︎︎︎DAYS PRICE : 350  TK")
-            print(f"{GREEN}[15]☞︎︎︎DAYS PRICE : 500  TK")
-            print(f"{GREEN}[30]☞︎︎︎DAYS PRICE : 1000 TK")
-            print(f"{BLUE}FREE APPROVAL AVAILABLE CONTACT ME ON MY WHATSAPP TO GET FREE APPROVAL")
-            print(55*"\033[1;92m=")
-            input("\033[1;91m[PRESS ENTER TO SEND KEY TO ADMIN]")
-            os.system(f"termux-open-url https://wa.me/+9660507886506?text={bumper}")
-            approval()
-    except requests.exceptions.ConnectionError:
-        exit(' NO INTERNET CONNECTION ..')
 
-def rrrr():
-    if bumper in myweb2:
-        pass
-    else:
-        approval()
-def xchker():
-    pass
-    approval()
-def FIRE():
-  
   def cek_apk(session,coki):
 	w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":coki}).text
 	sop = BeautifulSoup(w,"html.parser")
