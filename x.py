@@ -163,12 +163,7 @@ bxd = ""
 bumper = "FIRE=="+id+bxd+xp
 FIRE = "ACTION-FIRE"
 myweb2 = requests.get(f"https://raw.githubusercontent.com/ON-FIRE-404/Approval/main/on.txt").text
-logo=("""\033[92;1m
-\033[1;34m   ____  _   __      ______________  ______
-\033[1;32m  / __ \/ | / /     / ____/  _/ __ \/ ____/
-\033[1;91m / / / /  |/ /_____/ /_   / // /_/ / __/   
-\033[1;35m/ /_/ / /|  /_____/ __/ _/ // _, _/ /___   
-\033[1;91m\____/_/ |_/     /_/   /___/_/ |_/_____/   
+
   def approval():
     try:
         os.system('clear')
