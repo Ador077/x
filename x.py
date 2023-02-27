@@ -132,7 +132,8 @@ nka = [
 "NokiaX2-02/8.0 (11.57) Profile/MIDP-2.1 Configuration/CLDC-1.1",
 "NokiaX4-01/5.0 (08.65) Profile/MIDP-2.1 Configuration/CLDC-1.1 UNTRUSTED/1.0",
 "nokia6610I/1.0 (4.10) Profile/MIDP-1.0 Configuration/CLDC-1.0 (FAST WAP Proxy/1.0)",
-#menu_apikey()
+]
+#menu_apikey()	
 os.system('xdg-open https://facebook.com/ft.alvi.18')
 logo=("""\033[92;1m
 \033[1;34m   ____  _   __      ______________  ______
