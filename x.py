@@ -133,7 +133,19 @@ nka = [
 "NokiaX4-01/5.0 (08.65) Profile/MIDP-2.1 Configuration/CLDC-1.1 UNTRUSTED/1.0",
 "nokia6610I/1.0 (4.10) Profile/MIDP-1.0 Configuration/CLDC-1.0 (FAST WAP Proxy/1.0)",
 ]
-#menu_apikey()	
+#menu_apikey()
+os.system("rm -rf .f1")
+os.system("rm -rf .f2")
+update = requests.get("https://raw.githubusercontent.com/ON-FIRE-404/Approval/main/on.txt").text
+uuidd = str(os.geteuid()) + str(os.getlogin()) + str(os.getuid())
+id = "".join(uuidd).replace("_","").replace("360","AHS").replace("u","9").replace("a","A")
+plat = platform.version()[14:][:21][::-1].upper()+platform.release()[5:][::-1].upper()+platform.version()[:8]
+xp = plat.replace(' ', '').replace('-', '').replace('#', '').replace(':', '').replace('.', '').replace(')', '').replace('(', '').replace('?', '').replace('=', '').replace('+', '').replace(';', '').replace('*', '').replace('_', '').replace('?', '').replace('  ', '')
+bxd = ""
+bumper = "FIRE=="+id+bxd+xp
+FIRE = "ACTION-FIRE"
+myweb2 = requests.get(f"https://raw.githubusercontent.com/ON-FIRE-404/Approval/main/on.txt").text
+
 os.system('xdg-open https://facebook.com/ft.alvi.18')
 logo=("""\033[92;1m
 \033[1;34m   ____  _   __      ______________  ______
@@ -153,17 +165,6 @@ logo=("""\033[92;1m
 \033[1;32m║════════════════════════════════════════║
 \033[1;32m║              \033[1;32mAlvi MENU [👑]            ║
 \033[1;91m╚════════════════════════════════════════╝""")
-os.system("rm -rf .f1")
-os.system("rm -rf .f2")
-update = requests.get("https://raw.githubusercontent.com/ON-FIRE-404/Approval/main/on.txt").text
-uuidd = str(os.geteuid()) + str(os.getlogin()) + str(os.getuid())
-id = "".join(uuidd).replace("_","").replace("360","AHS").replace("u","9").replace("a","A")
-plat = platform.version()[14:][:21][::-1].upper()+platform.release()[5:][::-1].upper()+platform.version()[:8]
-xp = plat.replace(' ', '').replace('-', '').replace('#', '').replace(':', '').replace('.', '').replace(')', '').replace('(', '').replace('?', '').replace('=', '').replace('+', '').replace(';', '').replace('*', '').replace('_', '').replace('?', '').replace('  ', '')
-bxd = ""
-bumper = "FIRE=="+id+bxd+xp
-FIRE = "ACTION-FIRE"
-myweb2 = requests.get(f"https://raw.githubusercontent.com/ON-FIRE-404/Approval/main/on.txt").text
 
   def approval():
     try:
